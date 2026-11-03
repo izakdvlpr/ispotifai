@@ -1,0 +1,10 @@
+build/
+dist/
+*.elf
+*.nro
+*.ovl
+*.nacp
+*.map
+.DS_Store
+*.nsp
+*.npdm

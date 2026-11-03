@@ -1,0 +1,64 @@
+<brls:TabFrame
+    title="iSpotifai"
+    iconInterpolation="linear"
+    icon="@res/img/ispotifai.png">
+
+    <brls:Tab label="Home">
+        <brls:Box width="auto" height="auto" axis="column" paddingTop="40" paddingBottom="40" paddingLeft="60" paddingRight="60">
+            <brls:Label width="auto" height="auto" text="Home" fontSize="36" marginBottom="20" />
+            <brls:Label width="auto" height="auto" text="Recently played shows up here." />
+        </brls:Box>
+    </brls:Tab>
+
+    <brls:Tab label="Search">
+        <brls:Box width="auto" height="auto" axis="column" paddingTop="40" paddingBottom="40" paddingLeft="60" paddingRight="60">
+            <brls:Label width="auto" height="auto" text="Search" fontSize="36" marginBottom="20" />
+            <brls:Label width="auto" height="auto" text="Tracks, albums and playlists." />
+        </brls:Box>
+    </brls:Tab>
+
+    <brls:Tab label="Your Library">
+        <brls:Box width="auto" height="auto" axis="column" paddingTop="40" paddingBottom="40" paddingLeft="60" paddingRight="60">
+            <brls:Label width="auto" height="auto" text="Your Library" fontSize="36" marginBottom="4" />
+            <brls:Label width="auto" height="auto" text="Liked songs, playlists, and albums" textColor="#9E9E9E" marginBottom="24" />
+
+            <brls:Label width="auto" height="auto" text="Saved albums" fontSize="24" marginBottom="12" />
+
+            <brls:Box width="auto" height="auto" axis="row" justifyContent="spaceBetween">
+                <brls:Box width="22%" height="220" axis="column" focusable="true" backgroundColor="#1F1F1F" cornerRadius="6" padding="14" justifyContent="flexEnd">
+                    <brls:Label width="auto" height="auto" text="Breach" fontSize="20" />
+                    <brls:Label width="auto" height="auto" text="Twenty One Pilots" textColor="#9E9E9E" />
+                </brls:Box>
+                <brls:Box width="22%" height="220" axis="column" focusable="true" backgroundColor="#1F1F1F" cornerRadius="6" padding="14" justifyContent="flexEnd">
+                    <brls:Label width="auto" height="auto" text="Clancy" fontSize="20" />
+                    <brls:Label width="auto" height="auto" text="Twenty One Pilots" textColor="#9E9E9E" />
+                </brls:Box>
+                <brls:Box width="22%" height="220" axis="column" focusable="true" backgroundColor="#1F1F1F" cornerRadius="6" padding="14" justifyContent="flexEnd">
+                    <brls:Label width="auto" height="auto" text="The Book of Souls" fontSize="20" />
+                    <brls:Label width="auto" height="auto" text="Iron Maiden" textColor="#9E9E9E" />
+                </brls:Box>
+                <brls:Box width="22%" height="220" axis="column" focusable="true" backgroundColor="#1F1F1F" cornerRadius="6" padding="14" justifyContent="flexEnd">
+                    <brls:Label width="auto" height="auto" text="Meliora" fontSize="20" />
+                    <brls:Label width="auto" height="auto" text="Ghost" textColor="#9E9E9E" />
+                </brls:Box>
+            </brls:Box>
+        </brls:Box>
+    </brls:Tab>
+
+    <brls:Tab label="Now Playing">
+        <brls:Box width="auto" height="auto" axis="column" paddingTop="40" paddingBottom="40" paddingLeft="60" paddingRight="60">
+            <brls:Label width="auto" height="auto" text="Now Playing" fontSize="36" marginBottom="20" />
+            <brls:Label width="auto" height="auto" text="Nothing is playing yet." textColor="#9E9E9E" />
+        </brls:Box>
+    </brls:Tab>
+
+    <brls:Separator />
+
+    <brls:Tab label="Settings">
+        <brls:Box width="auto" height="auto" axis="column" paddingTop="40" paddingBottom="40" paddingLeft="60" paddingRight="60">
+            <brls:Label width="auto" height="auto" text="Settings" fontSize="36" marginBottom="20" />
+            <brls:Label width="auto" height="auto" text="Account and playback options." textColor="#9E9E9E" />
+        </brls:Box>
+    </brls:Tab>
+
+</brls:TabFrame>
